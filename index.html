@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="/tailwind.css">
+    <title>Tailwind Pricing Component</title>
+</head>
+<body class="sans h-full py-16 antialiased bg-primary-grey">
+    <header class="flex flex-col items-center mb-12">
+      <h2 class="text-3xl text-primary-white font-bold">Pricing</h2>
+    </header>
+    <section
+      class="flex flex-col lg:flex-row items-start items-center lg:justify-center w-full w-full lg:px-10 py-12 "
+    >
+      <article
+        class="w-4/5 lg:w-custom mb-10 lg:px-4 py-10 text-center text-primary-dark bg-primary-white"
+      >
+        <h5 class="font-bold text-base">Standard</h5>
+        <h2 class="pb-4 flex justify-center font-bold border-b border-gray-300">
+          <span class="text-6xl mr-1">$</span
+          ><span class="text-6xl"> 100</span>
+        </h2>
+        <ul class="text-sm font-bold">
+          <li class="pt-4 pb-4 border-b border-gray-300">50,000 Requests</li>
+          <li class="pt-3 pb-4 border-b border-gray-300">4 contributors</li>
+          <li class="pt-4 pb-4 border-b border-gray-300">Up to 3 GB storage space</li>
+        </ul>
+        <button
+          class=" uppercase text-center text-sm mt-12 xl:px-24 px-12 sm:px-16 py-2 font-bold text-primary-very-light rounded-md"
+        >
+				Subscribe
+        </button>
+      </article>
+      <article
+        class="lg:w-custom w-4/5 mb-10 py-16 lg:-mt-6 text-white bg-primary-blue text-center"
+      >
+        <h5 class="font-bold text-base ">Pro</h5>
+        <h2
+          class="font-bold pb-4 mt-2 border-b border-gray-100 flex justify-center"
+        >
+          <span class="text-6xl mr-1">$</span
+          ><span class="text-6xl "> 200</span>
+        </h2>
+        <ul class=" text-sm font-bold">
+          <li class="pt-4 pb-4 border-b border-gray-200">100,000 Requests</li>
+          <li class="pt-4 pb-4 border-b border-gray-200">7 contributors</li>
+          <li class="pt-4 pb-4 border-b border-gray-200">Up to 6 GB storage space</li>
+        </ul>
+        <button
+          class="uppercase text-center text-sm mt-10 xl:px-24 px-12 sm:px-16 py-2 rounded-md font-bold bg-primary-very-light text-primary-white"
+        >
+          Subscribe
+        </button>
+      </article>
+      <article
+        class="bg-white w-4/5 lg:w-custom mb-10 lg:px-4 py-10 text-center text-primary-dark"
+      >
+        <h5 class="font-bold text-base">Expert</h5>
+        <h2 class="flex justify-center pb-4 font-bold border-b border-gray-200">
+          <span class="text-6xl mr-1">$</span
+          ><span class="text-6xl">500</span>
+        </h2>
+        <ul class="text-sm font-bold">
+          <li class="pt-4 pb-4 border-b border-gray-200">200,000 Requests</li>
+          <li class="pt-4 pb-4 border-b border-gray-200">11 contributors</li>
+          <li class="pt-4 pb-4 border-b border-gray-200">Up to 10 GB storage space</li>
+        </ul>
+        <button
+          class="uppercase text-center text-sm mt-12 xl:px-24 px-12 sm:px-16 py-2 rounded-md font-bold text-primary-very-light"
+        >
+				Subscribe
+        </button>
+      </article>
+    </section>
+  </body>
+</html>
